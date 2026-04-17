@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  max-width: 800px;
+  margin: auto;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+

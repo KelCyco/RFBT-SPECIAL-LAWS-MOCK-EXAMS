@@ -1,0 +1,802 @@
+[
+ {
+   "Question": "1st Statement: Covered transactions under AMLA exceed ?4,000,000 within five (5) banking days.\n2nd Statement: All covered transactions are automatically suspicious.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about consumer transaction?",
+   "A": "Includes sale of goods",
+   "B": "Includes provision of credit",
+   "C": "Excludes services",
+   "D": "Includes solicitation",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic documents have legal effect.\n2nd Statement: They must be printed to be valid.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about PDIC?",
+   "A": "Insures deposits",
+   "B": "Promotes stability",
+   "C": "Covers only private loans",
+   "D": "Attached to BSP",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Intellectual property includes patents and trademarks.\n2nd Statement: It excludes copyrights.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "B"
+ },
+ {
+   "Question": "Which of the following is not correct about Labor Code?",
+   "A": "Protects workers",
+   "B": "Promotes employment",
+   "C": "Favors employer in doubts",
+   "D": "Ensures industrial peace",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Procurement must be included in APP.\n2nd Statement: APP must be approved by HoPE.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which is not correct about bank deposits under secrecy law?",
+   "A": "Confidential",
+   "B": "Requires consent for disclosure",
+   "C": "Always open to public",
+   "D": "Court may allow inquiry",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: SSS provides protection against disability.\n2nd Statement: It excludes maternity benefits.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "B"
+ },
+ {
+   "Question": "Which of the following is not correct about PCA?",
+   "A": "Promotes competition",
+   "B": "Prevents monopolies",
+   "C": "Encourages anti-competitive agreements",
+   "D": "Protects consumers",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Money laundering involves disguising proceeds of unlawful activity.\n2nd Statement: It applies only when funds come from lawful sources.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about Data Privacy Act?",
+   "A": "Protects personal data",
+   "B": "Requires consent",
+   "C": "Allows unlimited disclosure",
+   "D": "Covers processing",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: FRIA proceedings are summary in nature.\n2nd Statement: They are adversarial proceedings.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about Truth in Lending Act?",
+   "A": "Requires disclosure",
+   "B": "Protects borrowers",
+   "C": "Disclosure after consummation",
+   "D": "Applies to credit",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Relevant market includes product and geographic market.\n2nd Statement: Product market considers substitutability.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about IPO?",
+   "A": "Registers trademarks",
+   "B": "Grants patents",
+   "C": "Conducts criminal trials",
+   "D": "Publishes IP records",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Consumer includes natural persons only.\n2nd Statement: Corporations may be considered consumers.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about NGPA principles?",
+   "A": "Transparency",
+   "B": "Accountability",
+   "C": "Monopoly",
+   "D": "Competitiveness",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic signature authenticates identity.\n2nd Statement: It is used to validate electronic documents.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about unclaimed balances?",
+   "A": "No activity for 10 years",
+   "B": "Transferred to Treasurer",
+   "C": "Retained permanently by banks",
+   "D": "Includes deposits",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: AMLC may freeze monetary instruments.\n2nd Statement: AMLC directly convicts offenders.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about Labor recruitment?",
+   "A": "Includes hiring",
+   "B": "Includes advertising",
+   "C": "Requires profit always",
+   "D": "Includes referral",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Personal information identifies an individual.\n2nd Statement: Anonymous data is considered personal information.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about SSS?",
+   "A": "Provides social protection",
+   "B": "Covers contingencies",
+   "C": "Applies only to government workers",
+   "D": "Promotes social justice",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Procurement applies regardless of funding source.\n2nd Statement: It applies only to national government.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about covered institutions?",
+   "A": "Banks",
+   "B": "Insurance companies",
+   "C": "Brokers",
+   "D": "Public schools",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: PDIC promotes stability of banking system.\n2nd Statement: It insures deposits of banks.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about competition law?",
+   "A": "Prevents abuse of dominance",
+   "B": "Promotes competition",
+   "C": "Encourages cartels",
+   "D": "Protects consumers",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Goods in procurement must generally be brand new.\n2nd Statement: Second-hand goods are always prohibited.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about IPO structure?",
+   "A": "Headed by Director General",
+   "B": "Has bureaus",
+   "C": "Controlled by Supreme Court",
+   "D": "Has legal affairs bureau",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic commerce applies to international transactions.\n2nd Statement: It applies only to commercial transactions.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about consumer products?",
+   "A": "Includes goods",
+   "B": "Includes services",
+   "C": "Includes credit",
+   "D": "Includes corporate shares",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Insolvency refers to inability to pay debts.\n2nd Statement: It may also mean liabilities exceed assets.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about Ease of Doing Business Act?",
+   "A": "Reduces red tape",
+   "B": "Promotes efficiency",
+   "C": "Encourages delays",
+   "D": "Applies to agencies",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Covered transaction reporting does not violate bank secrecy.\n2nd Statement: Reporting may result in liability even in good faith.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about BAC?",
+   "A": "Handles procurement",
+   "B": "Is mandatory",
+   "C": "Is optional",
+   "D": "Created by law",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Labor Code ensures equal work opportunities.\n2nd Statement: It applies regardless of sex or creed.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about AMLA records?",
+   "A": "Kept for 5 years",
+   "B": "Applies to closed accounts",
+   "C": "No record keeping required",
+   "D": "Covers transactions",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Technology transfer includes licensing agreements.\n2nd Statement: It involves transfer of knowledge.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about bank secrecy exceptions?",
+   "A": "With depositor consent",
+   "B": "Court order",
+   "C": "Impeachment",
+   "D": "Any government request",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Intellectual property rights include industrial designs.\n2nd Statement: They exclude geographic indications.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about liquidation under FRIA?",
+   "A": "Distributes debtor's assets",
+   "B": "Terminates business operations",
+   "C": "Continues business indefinitely",
+   "D": "Settles claims of creditors",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Covered institutions must verify identity of clients.\n2nd Statement: Anonymous accounts are allowed under AMLA.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about procurement planning?",
+   "A": "Requires market study",
+   "B": "Requires risk assessment",
+   "C": "Requires no preparation",
+   "D": "Ensures efficiency",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Personal information controller determines purpose of processing.\n2nd Statement: It cannot outsource processing activities.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about SSS coverage?",
+   "A": "Covers disability",
+   "B": "Covers death",
+   "C": "Covers maternity",
+   "D": "Covers only retirement",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Electronic documents can create obligations.\n2nd Statement: They have no evidentiary value.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about PCA?",
+   "A": "Applies to trade and commerce",
+   "B": "Applies to international trade affecting Philippines",
+   "C": "Applies to labor unions for collective bargaining",
+   "D": "Penalizes anti-competitive acts",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Deposits are confidential under bank secrecy law.\n2nd Statement: They may be examined in cases of bribery.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about Truth in Lending Act disclosure?",
+   "A": "Cash price must be disclosed",
+   "B": "Finance charge must be disclosed",
+   "C": "Disclosure after transaction only",
+   "D": "Total amount financed must be disclosed",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Procurement promotes value for money.\n2nd Statement: It ignores lifecycle cost.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about consumer credit?",
+   "A": "Payment may be deferred",
+   "B": "Includes installment plans",
+   "C": "Always requires cash payment",
+   "D": "Applies to consumer transactions",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: AMLC may institute civil forfeiture.\n2nd Statement: AMLC may request assistance from foreign states.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about IPO functions?",
+   "A": "Examine patent applications",
+   "B": "Register trademarks",
+   "C": "Conduct criminal prosecution",
+   "D": "Publish IP records",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Labor Code applies to all workers.\n2nd Statement: It distinguishes between agricultural and non-agricultural workers in application.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about unclaimed balances?",
+   "A": "Includes deposits",
+   "B": "Includes securities",
+   "C": "Requires 5 years inactivity",
+   "D": "Transferred to government",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Data processing includes storage and retrieval.\n2nd Statement: It excludes destruction of data.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about PDIC Board?",
+   "A": "Has seven members",
+   "B": "Includes BSP Governor",
+   "C": "Includes Secretary of Finance",
+   "D": "Composed only of private sector",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Competition law penalizes abuse of dominance.\n2nd Statement: It encourages restraint of trade.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about procurement goods?",
+   "A": "Includes supplies",
+   "B": "Includes materials",
+   "C": "Includes consulting services",
+   "D": "Includes equipment",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic signature identifies a person.\n2nd Statement: It may authenticate electronic data.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about AMLA unlawful activities?",
+   "A": "Kidnapping",
+   "B": "Smuggling",
+   "C": "Fraud",
+   "D": "Legitimate business",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: A creditor under TILA extends credit.\n2nd Statement: Finance charge includes interest and fees.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about SSS Commission?",
+   "A": "Includes government representatives",
+   "B": "Includes employer representatives",
+   "C": "Has only three members",
+   "D": "Has appointive members",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Rehabilitation aims to restore solvency.\n2nd Statement: It requires feasibility of plan.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about DPA coverage?",
+   "A": "Applies to processing",
+   "B": "Applies to identifiable persons",
+   "C": "Applies to anonymous data",
+   "D": "Protects personal information",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Procurement requires competitiveness.\n2nd Statement: It allows exclusive monopoly preference.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about Ease of Doing Business Act?",
+   "A": "Promotes efficiency",
+   "B": "Reduces red tape",
+   "C": "Encourages delay",
+   "D": "Applies to agencies",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Bank deposits may be examined upon court order.\n2nd Statement: Deposits are absolutely confidential without exception.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about consumer protection policy?",
+   "A": "Protects health and safety",
+   "B": "Promotes fair trade",
+   "C": "Encourages deceptive practices",
+   "D": "Provides redress",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Intellectual property rights include protection of undisclosed information.\n2nd Statement: Intellectual property excludes trademarks.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about FRIA proceedings?",
+   "A": "Summary in nature",
+   "B": "Non-adversarial",
+   "C": "Criminal in nature",
+   "D": "In rem",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Covered institutions must report covered transactions.\n2nd Statement: Reporting such transactions violates bank secrecy laws.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about procurement?",
+   "A": "Requires transparency",
+   "B": "Requires accountability",
+   "C": "Allows monopoly",
+   "D": "Requires competitiveness",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Personal data must be processed lawfully.\n2nd Statement: Consent is always unnecessary.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about SSS?",
+   "A": "Provides social protection",
+   "B": "Covers contingencies",
+   "C": "Applies only to private sector",
+   "D": "Promotes social justice",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic documents may establish rights.\n2nd Statement: They cannot extinguish obligations.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about AMLA?",
+   "A": "Prevents money laundering",
+   "B": "Protects financial system",
+   "C": "Allows anonymous accounts",
+   "D": "Requires reporting",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Labor Code ensures security of tenure.\n2nd Statement: It promotes just working conditions.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about IPO?",
+   "A": "Registers IP rights",
+   "B": "Adjudicates disputes",
+   "C": "Conducts criminal prosecution",
+   "D": "Publishes IP data",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Procurement ensures value for money.\n2nd Statement: It considers lifecycle costs.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about bank secrecy exceptions?",
+   "A": "With depositor consent",
+   "B": "Court order",
+   "C": "Impeachment",
+   "D": "Any private request",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Competition law applies to international trade affecting Philippines.\n2nd Statement: It applies only to domestic trade.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about consumer protection?",
+   "A": "Protects health",
+   "B": "Promotes education",
+   "C": "Encourages unfair practices",
+   "D": "Provides remedies",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: AMLC may investigate transactions.\n2nd Statement: AMLC may freeze assets.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about Truth in Lending Act?",
+   "A": "Requires disclosure",
+   "B": "Protects borrower",
+   "C": "Applies to credit",
+   "D": "No penalty for violation",
+   "Answer": "D"
+ },
+ {
+   "Question": "1st Statement: Data processing includes collection of data.\n2nd Statement: It excludes storage of data.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about PDIC?",
+   "A": "Insures deposits",
+   "B": "Maintains stability",
+   "C": "Covers all financial assets",
+   "D": "Protects depositors",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Rehabilitation restores financial health.\n2nd Statement: It requires feasible plan.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about recruitment?",
+   "A": "Includes hiring",
+   "B": "Includes referral",
+   "C": "Requires profit always",
+   "D": "Includes advertising",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Electronic commerce includes data transmission.\n2nd Statement: It excludes storage of data.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about AMLA records?",
+   "A": "Retained for 5 years",
+   "B": "Applies to closed accounts",
+   "C": "Not required",
+   "D": "Covers transactions",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Intellectual property promotes innovation.\n2nd Statement: It protects creators.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about DPA?",
+   "A": "Protects data",
+   "B": "Requires consent",
+   "C": "Allows unlimited use",
+   "D": "Applies to processing",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Labor Code promotes full employment.\n2nd Statement: It ensures equal work opportunities.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "C"
+ },
+ {
+   "Question": "Which of the following is not correct about procurement planning?",
+   "A": "Requires preparation",
+   "B": "Requires analysis",
+   "C": "Requires no planning",
+   "D": "Ensures efficiency",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Covered transactions must be reported.\n2nd Statement: Reporting in good faith incurs liability.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about SSS Commission?",
+   "A": "Has representatives",
+   "B": "Has appointive members",
+   "C": "Has only 3 members",
+   "D": "Includes stakeholders",
+   "Answer": "C"
+ },
+ {
+   "Question": "1st Statement: Bank secrecy allows inquiry upon court order.\n2nd Statement: Deposits are always confidential without exception.",
+   "A": "1st statement is true; 2nd statement is false",
+   "B": "1st statement is false; 2nd statement is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false",
+   "Answer": "A"
+ },
+ {
+   "Question": "Which of the following is not correct about competition policy?",
+   "A": "Promotes efficiency",
+   "B": "Encourages competition",
+   "C": "Allows anti-competitive acts",
+   "D": "Protects consumers",
+   "Answer": "C"
+ }
+]

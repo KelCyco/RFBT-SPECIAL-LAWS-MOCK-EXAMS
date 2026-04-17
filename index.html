@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ede7f6;
+      margin: 0;
+      padding: 20px;
+      user-select: none;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border-top: 6px solid #673ab7;
+      position: relative;
+    }
+
+    .hidden { display: none; }
+
+    .question-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .question-text {
+      white-space: pre-line;
+      margin-bottom: 15px;
+    }
+
+    .icon {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .correct-icon { color: #34a853; }
+    .wrong-icon { color: #ea4335; }
+
+    .option {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 5px;
+      transition: opacity 0.3s;
+    }
+
+    .option input {
+      margin-right: 10px;
+    }
+
+    .dimmed {
+      opacity: 0.4;
+    }
+
+    .correct-option {
+      background: #e6f4ea;
+      border: 1px solid #34a853;
+      opacity: 1 !important;
+    }
+
+    .wrong-option {
+      background: #fce8e6;
+      border: 1px solid #ea4335;
+      opacity: 1 !important;
+    }
+
+    .correct-question {
+      border-top: 6px solid #34a853;
+    }
+
+    .wrong-question {
+      border-top: 6px solid #ea4335;
+    }
+
+    .timer {
+      text-align: right;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background: #673ab7;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #5e35b1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div id="startPage" class="card">
+    <h1>Quiz</h1>
+    <p>Click start when ready.</p>
+    <button onclick="startQuiz()">Start</button>
+  </div>
+
+  <div id="quizPage" class="hidden">
+    <div class="timer" id="timer"></div>
+    <div id="quiz"></div>
+    <button id="submitBtn" onclick="submitQuiz()">Submit</button>
+    <h2 id="score"></h2>
+    <button id="retryBtn" class="hidden" onclick="resetQuiz()">Retry</button>
+  </div>
+
+</div>
+
+<script>
+let questions = [];
+let timeLeft = 10800;
+let timerInterval;
+let submitted = false;
+
+window.addEventListener('copy', e => e.preventDefault());
+window.addEventListener('paste', e => e.preventDefault());
+window.addEventListener('cut', e => e.preventDefault());
+
+fetch('questions.json')
+  .then(res => res.json())
+  .then(data => {
+    questions = data;
+    loadSavedState();
+  });
+
+function startQuiz() {
+  document.getElementById('startPage').classList.add('hidden');
+  document.getElementById('quizPage').classList.remove('hidden');
+  renderQuiz();
+  startTimer();
+}
+
+function renderQuiz() {
+  const quizDiv = document.getElementById('quiz');
+  quizDiv.innerHTML = '';
+
+  questions.forEach((q, index) => {
+    quizDiv.innerHTML += `
+      <div class="card" id="card-${index}">
+        <div class="question-header">
+          <div class="question-text"><b>${index + 1}. ${q.Question}</b></div>
+          <div id="icon-${index}" class="icon"></div>
+        </div>
+
+        ${['A','B','C','D'].map(opt => `
+          <label class="option" id="opt-${index}-${opt}">
+            <input type="radio" name="q${index}" value="${opt}">
+            ${q[opt]}
+          </label>
+        `).join('')}
+      </div>
+    `;
+  });
+
+  restoreAnswers();
+}
+
+function formatTime(seconds) {
+  const h = String(Math.floor(seconds / 3600)).padStart(2, '0');
+  const m = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+  const s = String(seconds % 60).padStart(2, '0');
+  return `${h}:${m}:${s}`;
+}
+
+function startTimer() {
+  timerInterval = setInterval(() => {
+    document.getElementById('timer').innerText = formatTime(timeLeft);
+    timeLeft--;
+
+    localStorage.setItem('timeLeft', timeLeft);
+
+    if (timeLeft < 0) {
+      clearInterval(timerInterval);
+      submitQuiz();
+    }
+  }, 1000);
+}
+
+function submitQuiz() {
+  if (submitted) return;
+  submitted = true;
+
+  clearInterval(timerInterval);
+
+  let score = 0;
+
+  questions.forEach((q, index) => {
+    const selected = document.querySelector(`input[name="q${index}"]:checked`);
+    const userAnswer = selected ? selected.value : null;
+
+    const card = document.getElementById(`card-${index}`);
+    const icon = document.getElementById(`icon-${index}`);
+
+    // dim all options first
+    document.querySelectorAll(`#card-${index} .option`).forEach(opt => {
+      opt.classList.add('dimmed');
+    });
+
+    // highlight correct answer
+    const correctOpt = document.getElementById(`opt-${index}-${q.Answer}`);
+    if (correctOpt) correctOpt.classList.add('correct-option');
+
+    if (userAnswer === q.Answer) {
+      score++;
+      card.classList.add('correct-question');
+      icon.innerHTML = '✔';
+      icon.classList.add('correct-icon');
+    } else {
+      card.classList.add('wrong-question');
+      icon.innerHTML = '✖';
+      icon.classList.add('wrong-icon');
+
+      if (userAnswer) {
+        const wrongOpt = document.getElementById(`opt-${index}-${userAnswer}`);
+        if (wrongOpt) wrongOpt.classList.add('wrong-option');
+      }
+    }
+
+    document.querySelectorAll(`input[name="q${index}"]`).forEach(i => i.disabled = true);
+  });
+
+  document.getElementById('score').innerText = `Score: ${score}/${questions.length}`;
+  document.getElementById('retryBtn').classList.remove('hidden');
+  document.getElementById('submitBtn').style.display = 'none';
+
+  localStorage.clear();
+}
+
+window.addEventListener('change', () => {
+  const answers = {};
+  questions.forEach((q, index) => {
+    const selected = document.querySelector(`input[name="q${index}"]:checked`);
+    if (selected) answers[index] = selected.value;
+  });
+  localStorage.setItem('answers', JSON.stringify(answers));
+});
+
+function restoreAnswers() {
+  const saved = JSON.parse(localStorage.getItem('answers')) || {};
+
+  Object.keys(saved).forEach(index => {
+    const input = document.querySelector(`input[name="q${index}"][value="${saved[index]}"]`);
+    if (input) input.checked = true;
+  });
+}
+
+function loadSavedState() {
+  const savedTime = localStorage.getItem('timeLeft');
+  if (savedTime) timeLeft = parseInt(savedTime);
+}
+
+function resetQuiz() {
+  localStorage.clear();
+  location.reload();
+}
+</script>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quiz App</title>
+  <title>TEST: Special Laws</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -83,11 +83,26 @@
       border-top: 6px solid #ea4335;
     }
 
-    .timer {
-      text-align: right;
-      font-weight: bold;
-      margin-bottom: 20px;
+    .quiz-header {
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 0;
+      background: #ede7f6;
+      z-index: 1000;
     }
+
+    .timer {
+      background: #673ab7;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+
 
     button {
       width: 100%;
@@ -116,8 +131,13 @@
     <button onclick="startQuiz()">Start</button>
   </div>
 
+
   <div id="quizPage" class="hidden">
-    <div class="timer" id="timer"></div>
+    
+    <div class="quiz-header">
+    <div id="timer" class="timer"></div>
+    </div>
+
     <div id="quiz"></div>
     <button id="submitBtn" onclick="submitQuiz()">Submit</button>
     <h2 id="score"></h2>

@@ -1,7 +1,7 @@
 const GAS_URL = 'https://script.google.com/macros/s/AKfycbzuYh7IvAap7G_GjZH2GpLf6DEVujUynmBAQQYztj9aNNze7M6DHS9IBqWl5Oxepn3c/exec';
 const ADMIN_EMAIL = 'kellygancayco@gmail.com';
 
-const ADMIN_BYPASS = false;
+const ADMIN_BYPASS = true; // true = admin always sees auth page | false = admin skips auth if saved
 
 const EXAM_WINDOW = {
   start: new Date('2026-01-01T00:00:00'),
@@ -44,19 +44,36 @@ function injectExamDates() {
 
 window.onload = () => {
   if (!checkExamWindow()) return;
+  injectExamDates();
+
   const savedEmail = localStorage.getItem('userEmail');
   const isAdmin = savedEmail && savedEmail.toLowerCase() === ADMIN_EMAIL.toLowerCase();
 
   if (savedEmail && !(isAdmin && ADMIN_BYPASS)) {
-    currentEmail = savedEmail;
-    showPage('selectionPage');
-    checkForSavedProgress();
+    showLoading('Verifying session...');
+    gasCall({ action: 'checkSession', email: savedEmail })
+      .then(res => {
+        if (res.success && !res.blocked) {
+          currentEmail = savedEmail;
+          showPage('selectionPage');
+          checkForSavedProgress();
+        } else {
+          localStorage.removeItem('userEmail');
+          showPage('authPage');
+          showAuthForm('landing');
+          if (res.blocked) showAuthMsg('Your access has been revoked. Please contact your instructor.');
+        }
+      })
+      .catch(() => {
+        currentEmail = savedEmail;
+        showPage('selectionPage');
+        checkForSavedProgress();
+      })
+      .finally(() => hideLoading());
   } else {
     showPage('authPage');
     showAuthForm('landing');
   }
-
-  injectExamDates();
 };
 
 // ── Loading Overlay ───────────────────────────────────────
@@ -370,7 +387,12 @@ function selectTest(testNumber) {
 
   gasCall({ action: 'checkTaken', email: currentEmail, testNumber })
     .then(res => {
-      if (res.success && res.examsTaken >= 1) {
+      if (res.blocked) {
+        localStorage.removeItem('userEmail');
+        showPage('authPage');
+        showAuthForm('landing');
+        showAuthMsg('Your access has been revoked. Please contact your instructor.');
+      } else if (res.success && res.examsTaken >= 1) {
         showLockedResult(testNumber);
       } else {
         showPage('startPage');

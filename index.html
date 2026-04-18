@@ -1,299 +1,205 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TEST: Special Laws</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #ede7f6;
-      margin: 0;
-      padding: 20px;
-      user-select: none;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: auto;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      border-top: 6px solid #673ab7;
-      position: relative;
-    }
-
-    .hidden { display: none; }
-
-    .question-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .question-text {
-      white-space: pre-line;
-      margin-bottom: 15px;
-    }
-
-    .icon {
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .correct-icon { color: #34a853; }
-    .wrong-icon { color: #ea4335; }
-
-    .option {
-      display: flex;
-      align-items: center;
-      padding: 10px;
-      border-radius: 6px;
-      margin-bottom: 5px;
-      transition: opacity 0.3s;
-    }
-
-    .option input {
-      margin-right: 10px;
-    }
-
-    .dimmed {
-      opacity: 0.4;
-    }
-
-    .correct-option {
-      background: #e6f4ea;
-      border: 1px solid #34a853;
-      opacity: 1 !important;
-    }
-
-    .wrong-option {
-      background: #fce8e6;
-      border: 1px solid #ea4335;
-      opacity: 1 !important;
-    }
-
-    .correct-question {
-      border-top: 6px solid #34a853;
-    }
-
-    .wrong-question {
-      border-top: 6px solid #ea4335;
-    }
-
-    .quiz-header {
-      position: sticky;
-      top: 0;
-      display: flex;
-      justify-content: flex-end;
-      padding: 10px 0;
-      background: #ede7f6;
-      z-index: 1000;
-    }
-
-    .timer {
-      background: #673ab7;
-      color: white;
-      padding: 6px 12px;
-      border-radius: 16px;
-      font-weight: bold;
-      font-size: 13px;
-    }
-
-
-
-    button {
-      width: 100%;
-      padding: 12px;
-      border: none;
-      background: #673ab7;
-      color: white;
-      font-size: 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    button:hover {
-      background: #5e35b1;
-    }
-  </style>
+  <title>RFBT: Special Laws Mock Exams</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 
-  <div id="startPage" class="card">
-    <h1>Quiz</h1>
-    <p>Click start when ready.</p>
-    <button onclick="startQuiz()">Start</button>
+  <!-- Auth Page -->
+  <div id="authPage" class="card">
+    <h2>RFBT: Special Laws</h2>
+    <p style="color:#888; font-size:14px; margin-top:-8px;">Mock Examination Portal</p>
+
+    <div id="authLanding">
+      <p style="color:#555; margin-bottom:20px;">Please register or log in to continue.</p>
+      <button type="button" onclick="showAuthForm('register')">Register</button>
+      <button type="button" class="btn-secondary" onclick="showAuthForm('login')" style="margin-top:8px;">Log In</button>
+    </div>
+
+    <!-- Register Form -->
+    <div id="authRegister" class="hidden">
+      <h3 style="margin-bottom:16px;">Create Account</h3>
+
+      <div id="registerStep1">
+        <label class="field-label">Email Address</label>
+        <input type="email" id="regEmail" placeholder="Enter your email">
+        <button type="button" onclick="registerSendCode()" id="regSendBtn">Send Verification Code</button>
+        <button type="button" class="btn-secondary" onclick="showAuthForm('landing')" style="margin-top:8px;">← Back</button>
+      </div>
+
+      <div id="registerStep2" class="hidden">
+        <label class="field-label">Verification Code</label>
+        <p style="font-size:13px; color:#888; margin-bottom:10px;">A 6-digit code was sent to <span id="regEmailDisplay" style="color:#673ab7; font-weight:bold;"></span></p>
+        <input type="text" id="regCode" placeholder="Enter 6-digit code" maxlength="6" style="letter-spacing:6px; font-size:20px; text-align:center;">
+        <button type="button" onclick="registerVerifyCode()" id="regVerifyBtn">Verify Code</button>
+        <button type="button" class="btn-text" onclick="registerSendCode()">Resend code</button>
+      </div>
+
+      <div id="registerStep3" class="hidden">
+        <label class="field-label">Set Passcode</label>
+        <div class="passcode-wrapper">
+          <input type="password" id="regPasscodeInput" placeholder="Enter 4-digit passcode" maxlength="4">
+          <button type="button" class="eye-btn" onclick="togglePasscodeView('reg')" id="regEyeBtn">
+            <svg id="regEyeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+        </div>
+
+        <label class="field-label" style="margin-top:14px;">Confirm Passcode</label>
+        <div class="passcode-wrapper">
+          <input type="password" id="regConfirmInput" placeholder="Confirm passcode" maxlength="4">
+          <button type="button" class="eye-btn" onclick="togglePasscodeView('regConf')" id="regConfEyeBtn">
+            <svg id="regConfEyeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+        </div>
+
+        <button type="button" onclick="registerSetPasscode()" id="regPasscodeBtn" style="margin-top:16px;">Create Account</button>
+      </div>
+    </div><!-- ← THIS was the missing closing tag for authRegister -->
+
+    <!-- Login Form -->
+    <div id="authLogin" class="hidden">
+      <h3 style="margin-bottom:16px;">Log In</h3>
+      <label class="field-label">Email Address</label>
+      <input type="email" id="loginEmail" placeholder="Enter your email">
+
+      <label class="field-label" style="margin-top:14px;">Passcode</label>
+      <div class="passcode-wrapper">
+        <input type="password" id="loginPasscodeInput" placeholder="Enter passcode" maxlength="4">
+        <button type="button" class="eye-btn" onclick="togglePasscodeView('login')" id="loginEyeBtn">
+          <svg id="loginEyeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
+      </div>
+
+      <button type="button" onclick="loginSubmit()" id="loginBtn" style="margin-top:16px;">Log In</button>
+      <button type="button" class="btn-secondary" onclick="showAuthForm('landing')" style="margin-top:8px;">← Back</button>
+    </div>
+
+    <div id="authMsg" class="auth-msg hidden"></div>
   </div>
 
+  <!-- Selection Page -->
+  <div id="selectionPage" class="card hidden">
+    <h2>Select an Examination</h2>
+    <p>Choose which simulation exam you want to take.</p>
+    <div class="test-btn-group">
 
+      <div class="test-card">
+        <button class="test-btn" onclick="selectTest(1)">
+          <span class="test-btn-title">Simulation Examination 1</span>
+          <div class="test-btn-bottom">
+            <span class="test-btn-sub">100 items &bull; Special Laws &bull; 3 Hours</span>
+            <div class="exam-date-slot"></div>
+          </div>
+        </button>
+        <button type="button" id="continueBtn1" class="continue-btn hidden" onclick="continueTest(1)">
+          ⏩ Resume where you left off
+        </button>
+      </div>
+
+      <div class="test-card">
+        <button class="test-btn" onclick="selectTest(2)">
+          <span class="test-btn-title">Simulation Examination 2</span>
+          <div class="test-btn-bottom">
+            <span class="test-btn-sub">45 items &bull; Special Laws &bull; 3 Hours</span>
+            <div class="exam-date-slot"></div>
+          </div>
+        </button>
+        <button type="button" id="continueBtn2" class="continue-btn hidden" onclick="continueTest(2)">
+          ⏩ Resume where you left off
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Start Page -->
+  <div id="startPage" class="card hidden">
+    <h1 id="startTestName"></h1>
+    <div id="startIntro"></div>
+    <button type="button" onclick="startQuiz()">Start</button>
+    <button type="button" class="btn-secondary" onclick="goToSelection()">← Back</button>
+  </div>
+
+  <!-- Quiz Page -->
   <div id="quizPage" class="hidden">
-    
     <div class="quiz-header">
-    <div id="timer" class="timer"></div>
+      <div class="timer-wrapper">
+        <div class="timer-top">
+          <span class="timer-label">Time Remaining</span>
+          <span id="timer" class="timer">03:00:00</span>
+        </div>
+        <div class="timer-bar-track">
+          <div id="timerBar" class="timer-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="resultScreen" class="hidden">
+      <div class="result-card">
+        <p class="result-complete">Examination Complete</p>
+        <p id="resultMessage" class="result-message"></p>
+        <div class="donut-wrapper">
+          <svg viewBox="0 0 120 120" width="160" height="160">
+            <circle cx="60" cy="60" r="45" fill="none" stroke="#eee" stroke-width="16"/>
+            <circle id="donutWrong" cx="60" cy="60" r="45" fill="none" stroke="#ea4335" stroke-width="16" stroke-linecap="round" style="transition: stroke-dasharray 1s ease"/>
+            <circle id="donutCorrect" cx="60" cy="60" r="45" fill="none" stroke="#34a853" stroke-width="16" stroke-linecap="round" style="transition: stroke-dasharray 1.2s ease"/>
+          </svg>
+          <div class="donut-center">
+            <span id="donutPercent" class="donut-percent">0%</span>
+            <span class="donut-label">score</span>
+          </div>
+        </div>
+        <div class="result-stats">
+          <div class="stat-box">
+            <span class="stat-label">Raw Score</span>
+            <span id="statRaw" class="stat-value"></span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Time Used</span>
+            <span id="statTime" class="stat-value"></span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Correct</span>
+            <span id="statCorrect" class="stat-value correct-color"></span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Wrong</span>
+            <span id="statWrong" class="stat-value wrong-color"></span>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button type="button" class="circle-btn" onclick="goToSelection()" title="Home">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Home</span>
+          </button>
+           
+          <!-- REMOVE RETRY BUTTON
+          <button type="button" class="circle-btn" onclick="resetQuiz()" title="Retry" id="retryBtn" disabled>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/></svg>
+            <span>Retry</span>
+          </button>
+          -->
+
+        </div>
+      </div>
     </div>
 
     <div id="quiz"></div>
-    <button id="submitBtn" onclick="submitQuiz()">Submit</button>
-    <h2 id="score"></h2>
-    <button id="retryBtn" class="hidden" onclick="resetQuiz()">Retry</button>
+    <button id="submitBtn" type="button" onclick="submitQuiz()">Submit</button>
   </div>
 
 </div>
 
-<script>
-let questions = [];
-let timeLeft = 10800;
-let timerInterval;
-let submitted = false;
+<div id="loadingOverlay">
+  <div class="loading-box">
+    <div class="loading-spinner"></div>
+    <div class="loading-text" id="loadingText">Please wait...</div>
+    <div class="loading-sub">Do not close or refresh this page.</div>
+  </div>
+</div>
 
-window.addEventListener('copy', e => e.preventDefault());
-window.addEventListener('paste', e => e.preventDefault());
-window.addEventListener('cut', e => e.preventDefault());
-
-fetch('questions.json')
-  .then(res => res.json())
-  .then(data => {
-    questions = data;
-    loadSavedState();
-  });
-
-function startQuiz() {
-  document.getElementById('startPage').classList.add('hidden');
-  document.getElementById('quizPage').classList.remove('hidden');
-  renderQuiz();
-  startTimer();
-}
-
-function renderQuiz() {
-  const quizDiv = document.getElementById('quiz');
-  quizDiv.innerHTML = '';
-
-  questions.forEach((q, index) => {
-    quizDiv.innerHTML += `
-      <div class="card" id="card-${index}">
-        <div class="question-header">
-          <div class="question-text"><b>${index + 1}. ${q.Question}</b></div>
-          <div id="icon-${index}" class="icon"></div>
-        </div>
-
-        ${['A','B','C','D'].map(opt => `
-          <label class="option" id="opt-${index}-${opt}">
-            <input type="radio" name="q${index}" value="${opt}">
-            ${q[opt]}
-          </label>
-        `).join('')}
-      </div>
-    `;
-  });
-
-  restoreAnswers();
-}
-
-function formatTime(seconds) {
-  const h = String(Math.floor(seconds / 3600)).padStart(2, '0');
-  const m = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
-  const s = String(seconds % 60).padStart(2, '0');
-  return `${h}:${m}:${s}`;
-}
-
-function startTimer() {
-  timerInterval = setInterval(() => {
-    document.getElementById('timer').innerText = formatTime(timeLeft);
-    timeLeft--;
-
-    localStorage.setItem('timeLeft', timeLeft);
-
-    if (timeLeft < 0) {
-      clearInterval(timerInterval);
-      submitQuiz();
-    }
-  }, 1000);
-}
-
-function submitQuiz() {
-  if (submitted) return;
-  submitted = true;
-
-  clearInterval(timerInterval);
-
-  let score = 0;
-
-  questions.forEach((q, index) => {
-    const selected = document.querySelector(`input[name="q${index}"]:checked`);
-    const userAnswer = selected ? selected.value : null;
-
-    const card = document.getElementById(`card-${index}`);
-    const icon = document.getElementById(`icon-${index}`);
-
-    // dim all options first
-    document.querySelectorAll(`#card-${index} .option`).forEach(opt => {
-      opt.classList.add('dimmed');
-    });
-
-    // highlight correct answer
-    const correctOpt = document.getElementById(`opt-${index}-${q.Answer}`);
-    if (correctOpt) correctOpt.classList.add('correct-option');
-
-    if (userAnswer === q.Answer) {
-      score++;
-      card.classList.add('correct-question');
-      icon.innerHTML = '✔';
-      icon.classList.add('correct-icon');
-    } else {
-      card.classList.add('wrong-question');
-      icon.innerHTML = '✖';
-      icon.classList.add('wrong-icon');
-
-      if (userAnswer) {
-        const wrongOpt = document.getElementById(`opt-${index}-${userAnswer}`);
-        if (wrongOpt) wrongOpt.classList.add('wrong-option');
-      }
-    }
-
-    document.querySelectorAll(`input[name="q${index}"]`).forEach(i => i.disabled = true);
-  });
-
-  document.getElementById('score').innerText = `Score: ${score}/${questions.length}`;
-  document.getElementById('retryBtn').classList.remove('hidden');
-  document.getElementById('submitBtn').style.display = 'none';
-
-  localStorage.clear();
-}
-
-window.addEventListener('change', () => {
-  const answers = {};
-  questions.forEach((q, index) => {
-    const selected = document.querySelector(`input[name="q${index}"]:checked`);
-    if (selected) answers[index] = selected.value;
-  });
-  localStorage.setItem('answers', JSON.stringify(answers));
-});
-
-function restoreAnswers() {
-  const saved = JSON.parse(localStorage.getItem('answers')) || {};
-
-  Object.keys(saved).forEach(index => {
-    const input = document.querySelector(`input[name="q${index}"][value="${saved[index]}"]`);
-    if (input) input.checked = true;
-  });
-}
-
-function loadSavedState() {
-  const savedTime = localStorage.getItem('timeLeft');
-  if (savedTime) timeLeft = parseInt(savedTime);
-}
-
-function resetQuiz() {
-  localStorage.clear();
-  location.reload();
-}
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>

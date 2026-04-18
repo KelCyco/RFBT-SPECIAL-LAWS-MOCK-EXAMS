@@ -1,0 +1,362 @@
+[
+ {
+   "Question": "ABC Corporation collected personal data from its customers for marketing purposes. The company outsourced data processing to a third-party IT provider without informing the customers. Later, a data breach occurred exposing sensitive customer data. The customers filed complaints claiming violation of their rights under the Data Privacy Act. ABC argued that the breach was caused by the third-party processor and thus it should not be liable. The National Privacy Commission investigated the matter. Which is the MOST accurate statement?",
+   "A": "ABC is not liable since the processor caused the breach",
+   "B": "ABC is liable because it remains the personal information controller",
+   "C": "Liability attaches only if there is bad faith",
+   "D": "Only the processor is liable under the law",
+   "Answer": "B"
+ },
+ {
+   "Question": "Mario, aged 58, works as a contractual employee in a private company earning ?25,000 monthly. His employer did not register him with the SSS, claiming that contractual employees are not covered. Mario later suffered disability and filed for benefits. The employer insists there is no obligation to contribute due to the nature of employment. Mario argues that he is entitled to coverage and benefits. The issue centers on compulsory coverage under the Social Security Act. Which is CORRECT?",
+   "A": "Coverage depends on employment classification",
+   "B": "Only regular employees are covered",
+   "C": "Mario is compulsorily covered regardless of status",
+   "D": "Coverage applies only if voluntarily registered",
+   "Answer": "C"
+ },
+ {
+   "Question": "XYZ Company hired Ana as a probationary employee for 6 months. After 7 months, she was terminated without cause. The employer argued that her performance was unsatisfactory, but no standards were communicated at the time of hiring. Ana filed a complaint for illegal dismissal. The employer claims management prerogative in terminating employees. The case hinges on probationary employment rules. Which is the BEST answer?",
+   "A": "Employer may terminate anytime during probation",
+   "B": "Ana became a regular employee after 6 months",
+   "C": "Employer need not inform standards",
+   "D": "Probationary employees have no security of tenure",
+   "Answer": "B"
+ },
+ {
+   "Question": "Juan entered into an online contract for the purchase of goods. The seller later denied the validity of the contract, arguing that there was no handwritten signature. Juan insists that the electronic signature is valid under the law. The transaction was conducted entirely online, including payment and confirmation. The issue is whether electronic documents are legally recognized. Which is CORRECT?",
+   "A": "Contracts require handwritten signatures",
+   "B": "Electronic signatures are not valid evidence",
+   "C": "Electronic documents have legal recognition",
+   "D": "Only notarized contracts are enforceable",
+   "Answer": "C"
+ },
+ {
+   "Question": "Company A developed a new machine and publicly demonstrated it before filing a patent application. Six months later, it filed for patent protection. Company B opposed, claiming lack of novelty. Company A argued that it is still entitled to protection since it is the original inventor. The IPOPHL must determine whether the invention is patentable. The issue centers on prior disclosure. What is the correct ruling?",
+   "A": "Patent is valid due to originality",
+   "B": "Patent is invalid due to lack of novelty",
+   "C": "Patent is valid if useful",
+   "D": "Patent is valid if industrially applicable",
+   "Answer": "B"
+ },
+ {
+   "Question": "A bank officer noticed multiple structured deposits made by a client to avoid reporting thresholds. Instead of reporting, the officer ignored the transactions. Later, it was discovered that the funds were proceeds of illegal activities. The officer claims no liability since no direct participation occurred. The AMLC initiated investigation for failure to comply with obligations. Which is CORRECT?",
+   "A": "No liability since officer did not participate",
+   "B": "Only the client is liable",
+   "C": "Officer is liable for failure to report suspicious transactions",
+   "D": "Liability arises only if amount exceeds threshold",
+   "Answer": "C"
+ },
+ {
+   "Question": "A lending company granted a loan to Pedro but failed to disclose finance charges clearly. Pedro later discovered hidden fees significantly increasing the cost of credit. He filed a complaint alleging violation of the Truth in Lending Act. The lender argued that the borrower signed the agreement voluntarily. The issue is whether disclosure requirements were complied with. Which is correct?",
+   "A": "Signature waives disclosure requirement",
+   "B": "Disclosure is not required for small loans",
+   "C": "Lender violated the law",
+   "D": "Only banks are covered",
+   "Answer": "C"
+ },
+ {
+   "Question": "Maria deposited ?800,000 in a bank under her name and another ?800,000 in a joint account with her husband. The bank later closed. She filed claims with PDIC for full recovery. PDIC must determine the insured amount. The issue involves computation of insured deposits. What is correct?",
+   "A": "Entire ?1.6M is insured",
+   "B": "Only ?500,000 total is insured",
+   "C": "Separate coverage applies per capacity",
+   "D": "Joint accounts are not insured",
+   "Answer": "C"
+ },
+ {
+   "Question": "A creditor obtained a court order to garnish the bank account of a debtor. The bank refused, invoking the Bank Secrecy Law. The creditor insists that garnishment is allowed. The court must resolve whether disclosure violates the law. The issue is applicability of secrecy vs garnishment. Which is CORRECT?",
+   "A": "Garnishment violates bank secrecy",
+   "B": "Bank may refuse compliance",
+   "C": "Garnishment is allowed without violating secrecy",
+   "D": "Disclosure requires depositor consent",
+   "Answer": "C"
+ },
+ {
+   "Question": "Two competing companies agreed to fix prices to stabilize the market. They argued that the agreement prevents destructive competition. The Philippine Competition Commission investigated the arrangement. The issue is whether the agreement is lawful. Which is correct?",
+   "A": "Valid if beneficial to industry",
+   "B": "Valid if no monopoly exists",
+   "C": "Illegal anti-competitive agreement",
+   "D": "Allowed if approved by government",
+   "Answer": "C"
+ },
+ {
+   "Question": "A corporation is unable to pay its debts as they fall due. It files for rehabilitation claiming it can still recover. Creditors oppose, arguing liquidation is more appropriate. The court must determine the proper remedy. The issue is feasibility of rehabilitation. Which is correct?",
+   "A": "Rehabilitation applies regardless of viability",
+   "B": "Liquidation applies automatically",
+   "C": "Rehabilitation applies if economically feasible",
+   "D": "Creditors decide exclusively",
+   "Answer": "C"
+ },
+ {
+   "Question": "A customer purchased a defective appliance. The store refused replacement, citing 'No Return, No Exchange Policy.' The customer insists on replacement. The issue involves consumer rights. Which is correct?",
+   "A": "Policy is always valid",
+   "B": "Customer must accept defect",
+   "C": "Policy is prohibited if product is defective",
+   "D": "Only refund is allowed",
+   "Answer": "C"
+ },
+ {
+   "Question": "A government office delayed processing a simple permit beyond the prescribed period. The applicant suffered business losses. Investigation revealed no valid reason for delay. The officer claims workload as justification. Which is correct?",
+   "A": "Delay is justified",
+   "B": "No liability for public officers",
+   "C": "Violation of EODB law",
+   "D": "Only criminal liability applies",
+   "Answer": "C"
+ },
+ {
+   "Question": "A security guard is allowed to sleep during his shift but must respond to emergencies. He claims full compensation for the entire shift. The employer argues that sleeping time is not compensable. The dispute concerns hours worked. Which is correct?",
+   "A": "Sleeping time is never compensable",
+   "B": "Only active hours are paid",
+   "C": "Sleeping time is compensable if required by nature of work",
+   "D": "Compensation depends on agreement only",
+   "Answer": "C"
+ },
+ {
+   "Question": "A self-employed professional declared monthly income upon registration. Later, income increased but no update was made. Contributions remained based on original declaration. The issue concerns basis of contributions. Which is correct?",
+   "A": "Contributions automatically adjust",
+   "B": "Original declaration remains basis unless updated",
+   "C": "SSS determines income",
+   "D": "Contributions depend on actual income monthly",
+   "Answer": "B"
+ },
+ {
+   "Question": "DEF Hospital collected patient data for treatment purposes. A doctor later used the same data in a research publication without anonymizing the identities of patients. The patients filed a complaint for violation of their privacy rights. The doctor argued that the use was for academic purposes and beneficial to society. The hospital claimed that consent was already given at the time of admission. The National Privacy Commission must determine whether the processing was lawful. Which is CORRECT?",
+   "A": "Processing is valid because it benefits society",
+   "B": "Processing is valid since consent for treatment covers all purposes",
+   "C": "Processing is invalid due to lack of specific consent and safeguards",
+   "D": "Processing is valid if done by a professional",
+   "Answer": "C"
+ },
+ {
+   "Question": "XYZ Corporation deducted SSS contributions from its employees but failed to remit them within the prescribed period due to financial difficulties. Employees later discovered the non-remittance upon claiming benefits. The employer argued that deductions were already made, thus liability should not attach. The SSS imposed penalties. The issue is whether failure to remit constitutes violation. Which is CORRECT?",
+   "A": "No liability since deductions were made",
+   "B": "Liability attaches only after employee complaint",
+   "C": "Employer is liable for failure to remit contributions",
+   "D": "Only administrative sanctions apply",
+   "Answer": "C"
+ },
+ {
+   "Question": "A company hired a 'consultant' paid per output with no fixed schedule. However, the company controlled how the work should be done and required daily reporting. The consultant was later terminated without notice. He filed a case claiming he is an employee. The company insists he is an independent contractor. The issue revolves around the control test. Which is CORRECT?",
+   "A": "Payment method determines relationship",
+   "B": "Absence of schedule means no employment",
+   "C": "Control over means and methods indicates employment",
+   "D": "Contract designation is controlling",
+   "Answer": "C"
+ },
+ {
+   "Question": "A supplier sent an electronic invoice to a buyer. The buyer refused payment claiming the document was not in paper form and thus unenforceable. The supplier insists that electronic documents are legally valid. The dispute reached court. The issue is enforceability of electronic documents. Which is CORRECT?",
+   "A": "Only printed documents are enforceable",
+   "B": "Electronic documents are valid if reliable",
+   "C": "Electronic documents require notarization",
+   "D": "Only government transactions allow electronic documents",
+   "Answer": "B"
+ },
+ {
+   "Question": "Inventor A created a process that improves efficiency in manufacturing. However, similar processes already exist publicly, though less efficient. He filed a patent application. The IPOPHL must determine if the invention meets patentability criteria. The issue involves inventive step. Which is CORRECT?",
+   "A": "Not patentable due to prior art",
+   "B": "Patentable if improvement is non-obvious",
+   "C": "Patentable only if completely new",
+   "D": "Not patentable unless first to file",
+   "Answer": "B"
+ },
+ {
+   "Question": "A casino accepted large cash transactions from a client without verifying identity. Later, it was discovered the funds were proceeds of crime. The casino argued that it was not originally covered by AMLA obligations. The AMLC charged the casino for violations. The issue involves inclusion of casinos as covered persons. Which is CORRECT?",
+   "A": "Casinos are not covered",
+   "B": "Casinos are covered and must perform due diligence",
+   "C": "Only banks are covered",
+   "D": "Liability arises only if funds are proven illegal first",
+   "Answer": "B"
+ },
+ {
+   "Question": "A borrower obtained credit through a credit card. The issuing bank disclosed interest rates but failed to disclose penalty charges clearly. The borrower defaulted and was charged penalties. He questioned the validity of the charges. The issue is adequacy of disclosure. Which is CORRECT?",
+   "A": "Partial disclosure is sufficient",
+   "B": "Penalty charges need not be disclosed",
+   "C": "Failure to disclose invalidates charges",
+   "D": "Disclosure applies only to loans",
+   "Answer": "C"
+ },
+ {
+   "Question": "A depositor claimed that his funds placed in a bank are held in trust and must be fully returned upon closure of the bank. PDIC argued that deposits are governed by loan principles. The issue is the legal nature of deposits. Which is CORRECT?",
+   "A": "Deposits are contracts of deposit",
+   "B": "Deposits are contracts of simple loan",
+   "C": "Deposits are fiduciary obligations",
+   "D": "Deposits are bailments",
+   "Answer": "B"
+ },
+ {
+   "Question": "A government agency requested bank records of a private individual for investigation purposes without court order. The bank refused citing confidentiality. The agency insists that public interest justifies disclosure. The issue involves exceptions to bank secrecy. Which is CORRECT?",
+   "A": "Public interest alone allows disclosure",
+   "B": "Government agencies may freely inquire",
+   "C": "Disclosure requires statutory exception or consent",
+   "D": "All investigations override secrecy",
+   "Answer": "C"
+ },
+ {
+   "Question": "A dominant company refused to supply essential goods to smaller competitors to drive them out of the market. The company claims business discretion. The Philippine Competition Commission investigated. The issue is abuse of dominant position. Which is CORRECT?",
+   "A": "Refusal is always allowed",
+   "B": "Abuse exists if it restricts competition",
+   "C": "Only price fixing is illegal",
+   "D": "Dominance is not regulated",
+   "Answer": "B"
+ },
+ {
+   "Question": "A company's liabilities exceed its assets but it continues to pay debts on time. Creditors filed for insolvency proceedings. The company argues it is not insolvent. The issue is definition of insolvency. Which is CORRECT?",
+   "A": "Insolvency exists only if unable to pay debts",
+   "B": "Insolvency exists if liabilities exceed assets",
+   "C": "Insolvency requires court declaration",
+   "D": "Insolvency applies only to corporations",
+   "Answer": "B"
+ },
+ {
+   "Question": "A seller advertised a product as '100% organic,' but it contained synthetic ingredients. A buyer purchased relying on the claim. Upon discovery, the buyer demanded refund. The seller refused, citing no warranty was given. The issue involves deceptive sales practices. Which is CORRECT?",
+   "A": "No liability without warranty",
+   "B": "Misrepresentation violates consumer law",
+   "C": "Buyer assumes risk",
+   "D": "Only defective products are covered",
+   "Answer": "B"
+ },
+ {
+   "Question": "A government agency failed to publish its Citizen's Charter. Applicants experienced delays and confusion regarding requirements. Complaints were filed. The agency argued that publication is optional. The issue concerns compliance with EODB requirements. Which is CORRECT?",
+   "A": "Charter is optional",
+   "B": "Required only for business permits",
+   "C": "Mandatory requirement under the law",
+   "D": "Applies only to national agencies",
+   "Answer": "C"
+ },
+ {
+   "Question": "An employee was dismissed for alleged misconduct without due process. The employer later justified dismissal based on evidence. The employee claimed illegal dismissal. The issue involves due process requirement. Which is CORRECT?",
+   "A": "Substantive cause is enough",
+   "B": "Due process is required",
+   "C": "Employer may justify later",
+   "D": "Only regular employees are protected",
+   "Answer": "B"
+ },
+ {
+   "Question": "A freelance consultant did not register with SSS claiming he has no employer. Later, he wanted to claim benefits. The issue is whether he was covered. Which is CORRECT?",
+   "A": "Not covered without employer",
+   "B": "Coverage is voluntary only",
+   "C": "Self-employed are compulsorily covered upon registration",
+   "D": "Coverage applies only upon benefit claim",
+   "Answer": "C"
+ },
+ {
+   "Question": "A bank detected suspicious transactions involving a politically exposed person (PEP). Without informing the client, the bank reported the transactions to AMLC. The client later sued the bank for violating the Bank Secrecy Law. The bank argued that reporting is mandatory under AMLA. The court must reconcile confidentiality and reporting obligations. The issue is whether AMLA overrides bank secrecy. Which is CORRECT?",
+   "A": "Bank violated secrecy law",
+   "B": "AMLA reporting is an exception to bank secrecy",
+   "C": "Disclosure requires client consent",
+   "D": "Reporting is optional",
+   "Answer": "B"
+ },
+ {
+   "Question": "An employee was illegally dismissed and later reinstated with backwages. During the period of dismissal, no SSS contributions were made. The employee demanded that the employer remit contributions for that period. The employer argued that no employment existed during dismissal. The issue involves effect of reinstatement. Which is CORRECT?",
+   "A": "No obligation due to separation",
+   "B": "Contributions are required upon reinstatement",
+   "C": "Only future contributions apply",
+   "D": "SSS liability depends on employee",
+   "Answer": "B"
+ },
+ {
+   "Question": "An online platform collected user data and shared it with advertisers without explicit consent. The platform argued that users accepted general terms and conditions. Users complained that data sharing was not clearly disclosed. The NPC investigated the platform. The issue involves valid consent in electronic transactions. Which is CORRECT?",
+   "A": "General consent is sufficient",
+   "B": "Consent must be specific and informed",
+   "C": "Online transactions are exempt",
+   "D": "Consent is implied in all usage",
+   "Answer": "B"
+ },
+ {
+   "Question": "A patent holder refused to license its patented product to competitors, effectively dominating the market. Competitors complained of anti-competitive behavior. The patent holder argued exclusive rights under IP law. The PCC evaluated the case. The issue is interplay of IP rights and competition law. Which is CORRECT?",
+   "A": "Patent rights are absolute",
+   "B": "Competition law does not apply to patents",
+   "C": "IP rights may still be subject to competition law",
+   "D": "Refusal to license is always illegal",
+   "Answer": "C"
+ },
+ {
+   "Question": "A corporation filed for rehabilitation but evidence showed its liabilities far exceed assets and no viable recovery plan exists. Creditors opposed rehabilitation. The court evaluated economic feasibility. The issue is proper proceeding. Which is CORRECT?",
+   "A": "Rehabilitation must be granted",
+   "B": "Liquidation is proper if rehabilitation is not feasible",
+   "C": "Debtor decides remedy",
+   "D": "Creditors cannot oppose",
+   "Answer": "B"
+ },
+ {
+   "Question": "A financing company advertised '0% interest installment' but imposed hidden service charges. A consumer discovered the true cost after purchase. The company argued that charges are not interest. The issue is whether disclosure requirements were violated. Which is CORRECT?",
+   "A": "Service charges are not covered",
+   "B": "Disclosure not required for promotions",
+   "C": "Hidden charges violate disclosure rules",
+   "D": "Only banks are covered",
+   "Answer": "C"
+ },
+ {
+   "Question": "A depositor maintained multiple accounts under different names but all for his benefit. Upon bank closure, he claimed insurance separately for each account. PDIC investigated the accounts. The issue involves aggregation of deposits. Which is CORRECT?",
+   "A": "All accounts insured separately",
+   "B": "Aggregation applies for same beneficial owner",
+   "C": "Only joint accounts are aggregated",
+   "D": "PDIC has no authority to investigate",
+   "Answer": "B"
+ },
+ {
+   "Question": "A public officer deliberately delayed approval of permits to solicit bribes. An investigation confirmed the act. The officer argued no direct law prohibits delay. The issue involves liability under EODB. Which is CORRECT?",
+   "A": "Delay is not punishable",
+   "B": "Only criminal liability applies",
+   "C": "Violation of EODB and anti-red tape rules",
+   "D": "Liability requires conviction first",
+   "Answer": "C"
+ },
+ {
+   "Question": "An employee was reassigned to a remote location with significantly reduced benefits. He resigned and filed a complaint claiming constructive dismissal. The employer argued it was management prerogative. The issue involves validity of reassignment. Which is CORRECT?",
+   "A": "Reassignment always valid",
+   "B": "Constructive dismissal exists if unreasonable",
+   "C": "Employee waived rights",
+   "D": "Only salary reduction matters",
+   "Answer": "B"
+ },
+ {
+   "Question": "A self-employed individual had no income for several months and did not pay SSS contributions. Later, he attempted to pay retroactively to qualify for benefits. SSS denied the request. The issue involves retroactive contributions. Which is CORRECT?",
+   "A": "Retroactive payment allowed",
+   "B": "Payment required despite no income",
+   "C": "No retroactive payment allowed",
+   "D": "Contributions optional anytime",
+   "Answer": "C"
+ },
+ {
+   "Question": "A bank reported suspicious transactions in good faith, but later investigation proved no illegal activity. The client sued for damages. The bank invoked safe harbor provisions. The issue involves protection of reporting entities. Which is CORRECT?",
+   "A": "Bank liable for false report",
+   "B": "Safe harbor protects good faith reporting",
+   "C": "Liability depends on result",
+   "D": "Only AMLC is protected",
+   "Answer": "B"
+ },
+ {
+   "Question": "A court issued a garnishment order on a debtor's bank account. The bank complied and froze the account. The debtor claimed violation of bank secrecy. The issue is validity of garnishment. Which is CORRECT?",
+   "A": "Garnishment violates secrecy",
+   "B": "Garnishment is valid and not a violation",
+   "C": "Requires depositor consent",
+   "D": "Applies only to government accounts",
+   "Answer": "B"
+ },
+ {
+   "Question": "Two large corporations merged without notifying the PCC despite exceeding thresholds. They argued that no anti-competitive effect resulted. The PCC investigated. The issue is notification requirement. Which is CORRECT?",
+   "A": "Notification required only if harm proven",
+   "B": "Notification mandatory upon reaching thresholds",
+   "C": "Merger always allowed",
+   "D": "PCC approval optional",
+   "Answer": "B"
+ },
+ {
+   "Question": "A company experienced a data breach but failed to notify affected individuals promptly. It argued that the breach was minor. The NPC found significant risk to data subjects. The issue involves breach notification. Which is CORRECT?",
+   "A": "Notification optional",
+   "B": "Only major breaches require reporting",
+   "C": "Mandatory notification when risk exists",
+   "D": "Only government agencies must notify",
+   "Answer": "C"
+ },
+ {
+   "Question": "An online seller collected customer data, misrepresented product specifications, and failed to deliver the promised goods. Customers suffered financial loss and privacy breach. Complaints were filed with multiple agencies. The issue involves multiple violations. Which is MOST accurate?",
+   "A": "Only consumer law applies",
+   "B": "Only data privacy applies",
+   "C": "Multiple laws apply simultaneously",
+   "D": "Only civil liability exists",
+   "Answer": "C"
+ }
+]

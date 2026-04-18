@@ -56,7 +56,7 @@ window.onload = () => {
     showAuthForm('landing');
   }
 
-  injectExamDates(); // ← add this line
+  injectExamDates();
 };
 
 // ── Loading Overlay ───────────────────────────────────────

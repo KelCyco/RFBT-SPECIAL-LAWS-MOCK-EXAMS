@@ -384,7 +384,6 @@ button:hover { background: #5e35b1; }
   color: #673ab7;
 }
 
-/* Remove any background/border changes on the button itself */
 .circle-btn:hover {
   background: none;
 }
